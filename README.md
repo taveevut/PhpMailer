@@ -4,8 +4,8 @@
 $mailto = "yourmail@gmail@gmail.com";
 $mailSub = "Lorem Ipsum คือ เนื้อหาจำลองแบบเรียบๆ";
 $mailMsg = "
-	Lorem Ipsum คือ เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ 
-	มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่
+  Lorem Ipsum คือ เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ 
+  มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่
 ";
 require 'PHPMailer/PHPMailerAutoload.php';
 $mail = new PHPMailer();
@@ -24,10 +24,10 @@ $mail ->Body = $mailMsg;
 $mail ->AddAddress($mailto);
 
 if(!$mail->Send()){
-		echo "Mail Not Sent";
+  echo "Mail Not Sent";
 }
 else{
-		echo "Mail Sent";
+  echo "Mail Sent";
 }
 ```
 
