@@ -1,9 +1,5 @@
-# PhpMailer
-ส่งอีเมล์บน Localhost ด้วย PHPMailer
-
-# ตัวอย่างการใช้งาน
-```
-	$mailto = "yourmail@gmail@gmail.com";
+<?php
+		$mailto = "yourmail@gmail@gmail.com";
 		$mailSub = "Lorem Ipsum คือ เนื้อหาจำลองแบบเรียบๆ";
 		$mailMsg = "
 			Lorem Ipsum คือ เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่
@@ -30,7 +26,3 @@
 	 else{
 			 echo "Mail Sent";
 	 }
-```
-
-> หมายเหตุ
-> ต้องตั้งค่าใน Gmail โดยเปิดแอปที่มีความปลอดภัยน้อยโดยพิมพ?คำว่า less secure apps ใน Google Search
