@@ -1,5 +1,4 @@
 # PhpMailer - ส่งอีเมล์บน Localhost ด้วย PHPMailer
-# ตัวอย่างการใช้งาน
 ```sh
 $mailto = "yourmail@gmail@gmail.com";
 $mailSub = "Lorem Ipsum คือ เนื้อหาจำลองแบบเรียบๆ";
